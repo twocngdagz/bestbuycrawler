@@ -1,0 +1,41 @@
+<?php
+defined('DS') 			? null : define('DS', DIRECTORY_SEPARATOR);
+defined('SITE_ROOT') 	? null : define('SITE_ROOT', 'C:'.DS.'Users'.DS.'rbelida'.DS. 'Dropbox' .DS. 'crawler'.DS.'bestbuy');
+defined('PHP')			? null : define('PHP', 'C:'.DS.DS.'wamp'.DS.DS.'bin'.DS.DS.'php'.DS.DS.'php5.3.13'.DS.DS.'php');
+defined('LOG')			? null : define('LOG', SITE_ROOT.DS.'log.txt');
+defined('CRAWLER1')		? null : define('CRAWLER1','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy1.php');
+defined('CRAWLER2')		? null : define('CRAWLER2','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy2.php');
+defined('CRAWLER3')		? null : define('CRAWLER3','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy3.php');
+defined('CRAWLER4')		? null : define('CRAWLER4','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy4.php');
+defined('CRAWLER5')		? null : define('CRAWLER5','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy5.php');
+defined('CRAWLER6')		? null : define('CRAWLER6','C:'.DS.DS.'wamp'.DS.DS.'www'.DS.DS.'crawler'.DS.DS.'bestbuy'.DS.DS.'bestbuy6.php');
+defined('TEXT_INPUT1')	? null : define('TEXT_INPUT1', SITE_ROOT.DS.'BBY SKU1.txt');
+defined('TEXT_INPUT2')	? null : define('TEXT_INPUT2', SITE_ROOT.DS.'BBY SKU2.txt');
+defined('TEXT_INPUT3')	? null : define('TEXT_INPUT3', SITE_ROOT.DS.'BBY SKU3.txt');
+defined('TEXT_INPUT4')	? null : define('TEXT_INPUT4', SITE_ROOT.DS.'BBY SKU4.txt');
+defined('TEXT_INPUT5')	? null : define('TEXT_INPUT5', SITE_ROOT.DS.'BBY SKU5.txt');
+defined('TEXT_INPUT6')	? null : define('TEXT_INPUT6', SITE_ROOT.DS.'BBY SKU6.txt');	
+defined('TEXT_INPUT7')	? null : define('TEXT_INPUT7', SITE_ROOT.DS.'BBY SKU7.txt');
+defined('TEXT_INPUT8')	? null : define('TEXT_INPUT8', SITE_ROOT.DS.'BBY SKU8.txt');
+defined('TEXT_INPUT9')	? null : define('TEXT_INPUT9', SITE_ROOT.DS.'BBY SKU9.txt');
+defined('TEXT_INPUT10')	? null : define('TEXT_INPUT10', SITE_ROOT.DS.'BBY SKU10.txt');
+defined('TEXT_INPUT11')	? null : define('TEXT_INPUT11', SITE_ROOT.DS.'BBY SKU11.txt');
+defined('TEXT_INPUT12')	? null : define('TEXT_INPUT12', SITE_ROOT.DS.'BBY SKU12.txt');
+defined('TEXT_INPUT13')	? null : define('TEXT_INPUT13', SITE_ROOT.DS.'BBY SKU13.txt');
+defined('TEXT_INPUT14')	? null : define('TEXT_INPUT14', SITE_ROOT.DS.'BBY SKU14.txt');
+defined('TEXT_INPUT15')	? null : define('TEXT_INPUT15', SITE_ROOT.DS.'BBY SKU15.txt');
+defined('TEXT_INPUT16')	? null : define('TEXT_INPUT16', SITE_ROOT.DS.'BBY SKU16.txt');
+defined('LIB_PATH') 	? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
+require_once(LIB_PATH.DS.'config.php');
+require_once(LIB_PATH.DS.'exception.php');
+require_once(LIB_PATH.DS.'functions.php');
+require_once(LIB_PATH.DS.'database.php');
+require_once(LIB_PATH.DS.'database_object.php');
+require_once(LIB_PATH.DS.'product.php');
+require_once(LIB_PATH.DS.'file_upload.php');
+require_once(LIB_PATH.DS.'bby.php');
+require_once(LIB_PATH.DS.'sku.php');
+require_once(LIB_PATH.DS.'session.php');
+require_once(LIB_PATH.DS.'LanguageTranslator.php');
+
+?>
